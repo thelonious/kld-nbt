@@ -13,5 +13,7 @@ module.exports = {
 	CompoundTag: require('./lib/tags/CompoundTag'),
 	IntArrayTag: require('./lib/tags/IntArrayTag'),
 	ReadBuffer: require('./lib/ReadBuffer'),
+
+	loadNBTFile: require('./lib/loadNBTFile'),
 	printTag: require('./lib/printTag')
 };
