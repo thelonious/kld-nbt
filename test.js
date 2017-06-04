@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 
-let NBT         = require('./index'),
-    loadNBTFile = NBT.loadNBTFile,
-    printTag    = NBT.printTag;
+let NBT = require('./index');
 
-let nbtData = loadNBTFile('./test.dat');
+let nbtData = NBT.loadNBTFile('./test.dat');
 
-printTag(nbtData);
+NBT.printTag(nbtData);
