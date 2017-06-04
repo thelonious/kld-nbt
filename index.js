@@ -12,5 +12,6 @@ module.exports = {
 	ListTag: require('./lib/tags/ListTag'),
 	CompoundTag: require('./lib/tags/CompoundTag'),
 	IntArrayTag: require('./lib/tags/IntArrayTag'),
-	ReadBuffer: require('./lib/ReadBuffer')
+	ReadBuffer: require('./lib/ReadBuffer'),
+	printTag: require('./lib/TagPrinter')
 };
