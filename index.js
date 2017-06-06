@@ -15,5 +15,6 @@ module.exports = {
 	ReadBuffer: require('./lib/ReadBuffer'),
 
 	loadNBTFile: require('./lib/loadNBTFile'),
-	printTag: require('./lib/printTag')
+	printTag: require('./lib/printTag'),
+	jsonifyTag: require('./lib/jsonifyTag')
 };
