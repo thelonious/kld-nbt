@@ -12,6 +12,9 @@
   ],
   "author": "Kevin Lindsey <kevin@kevlindev.com>",
   "license": "BSD-3-Clause",
+  "bin": {
+    "nbt-dump": "./nbt-dump.js"
+  },
   "dependencies": {
     "int64-buffer": "^0.1.9"
   }
